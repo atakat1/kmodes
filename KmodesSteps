@@ -1,0 +1,7 @@
+kmodes steps:
+1-Pick an observation(instance) at random and use that as a cluster
+2-compare each data point in the cluster to each observation data points, any elements that are not equal we add 1 
+  if they are equal we add nothing
+3-Assign each individual to the closest centroid
+4- Each features should have the mode (most common response) for each centroid
+5-Repeat steps 2-4 until no changes are made on the assignment of individuals to the closest centroid
